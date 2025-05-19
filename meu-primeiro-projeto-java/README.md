@@ -1,6 +1,3 @@
-
-[![SonarCloud Status](https://sonarcloud.io/api/project_badges/measure?project=com.github.kyriosdata%3Aexemplo&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.github.kyriosdata%3Aexemplo)
-
 ## Escopo, pré-requisitos e objetivo
 
 _Projeto que serve de referência para o desenvolvimento de software em Java_.
