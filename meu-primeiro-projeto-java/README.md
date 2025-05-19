@@ -1,18 +1,43 @@
-## Getting Started
+[![Build Status](https://app.travis-ci.com/kyriosdata/exemplo.svg)](https://app.travis-ci.com/github/kyriosdata/exemplo)
+[![SonarCloud Status](https://sonarcloud.io/api/project_badges/measure?project=com.github.kyriosdata%3Aexemplo&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.github.kyriosdata%3Aexemplo)
+[![Known Vulnerabilities](https://snyk.io/test/github/kyriosdata/exemplo/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/kyriosdata/exemplo)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.kyriosdata/exemplo/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.kyriosdata/exemplo)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Escopo, pré-requisitos e objetivo
 
-## Folder Structure
+_Projeto que serve de referência para o desenvolvimento de software em Java_.
 
-The workspace contains two folders by default, where:
+É um projeto proposto para ser clonado e reutilizado, faz uso de 
+Spring Boot 3, JDK 21 (exigido).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Para ilustrar o projeto inclui:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> _Objetivo: 
 
-## Dependency Management
+## Iniciando...
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `git clone https://github.com/wagnersequineli/exemplo`
+- `cd exemplo`
+
+## Análise estática
+
+O desenvolvimento de código em Java, em geral, usufrui de um significativo conjunto de bibliotecas e _frameworks_. Esta
+reutilização é incorporada em um projeto por meio de dependências. Gerenciá-las
+torna-se necessário e há dois _plugins_ úteis para tal. Consulte a documentação deles
+para outros além daqueles ilustrados abaixo: Version Maven Plugin ([aqui](http://www.mojohaus.org/versions-maven-plugin/)) e Apache Maven Dependency Plugin ([aqui](https://maven.apache.org/plugins/maven-dependency-plugin/)).
+
+Para projetos _open source_ os serviços oferecidos são gratuitos. Seguem aqui os
+merecidos agradecimentos a:
+
+- https://travis-ci.com
+- https://sonarcloud.io
+- https://snyk.io
+
+A lista acima não tem a pretensão de ser exclusiva. Abaixo seguem outros serviços:
+
+- https://www.codacy.com/
+- https://codescene.io/
+- https://codecov.io/
+- http://circleci.com/
+- https://codeclimate.com/quality/
