@@ -18,7 +18,7 @@ public class SmartTV {
     public void diminuirVolume() {
         volume--;
     }
-    
+
     public void aumentarVolume() {
         volume++;
     }
